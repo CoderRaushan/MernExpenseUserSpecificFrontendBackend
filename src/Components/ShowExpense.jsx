@@ -20,7 +20,7 @@
 
 //   useEffect(() => {
 //     axios
-//       .get("http://localhost:8243/user/ShowExpense", { withCredentials: true })
+//       .get("https://mernexpenseuserspecificbackend.onrender.com/user/ShowExpense", { withCredentials: true })
 //       .then((response) => {
 //         console.log("Fetched ExpenseData:", response.data);
 //         setExpenseData(response.data.expenses || response.data);
@@ -161,7 +161,7 @@
 
 //   useEffect(() => {
 //     axios
-//       .get("http://localhost:8243/user/ShowExpense", { withCredentials: true })
+//       .get("https://mernexpenseuserspecificbackend.onrender.com/user/ShowExpense", { withCredentials: true })
 //       .then((response) => {
 //         console.log("Fetched ExpenseData:", response.data);
 //         const expenses = response.data.expenses || response.data;
@@ -323,7 +323,7 @@
 
 //   useEffect(() => {
 //     axios
-//       .get("http://localhost:8243/user/ShowExpense", { withCredentials: true })
+//       .get("https://mernexpenseuserspecificbackend.onrender.com/user/ShowExpense", { withCredentials: true })
 //       .then((response) => {
 //         console.log("Fetched ExpenseData:", response.data);
 //         const expenses = response.data.expenses || response.data;
@@ -518,7 +518,7 @@ function ShowExpense() {
 
   useEffect(() => {
     axios
-      .get("http://localhost:8243/user/ShowExpense", { withCredentials: true })
+      .get("https://mernexpenseuserspecificbackend.onrender.com/user/ShowExpense", { withCredentials: true })
       .then((response) => {
         console.log("Fetched ExpenseData:", response.data);
         const expenses = response.data.expenses || response.data;

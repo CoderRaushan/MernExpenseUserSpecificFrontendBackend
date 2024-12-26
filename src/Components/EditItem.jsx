@@ -29,7 +29,7 @@ const EditItem = () => {
     formData.append("category", category);
     try { 
       const response = await axios.put(
-        `http://localhost:8243/user/EditExpense/${itemId}`
+        `https://mernexpenseuserspecificbackend.onrender.com/user/EditExpense/${itemId}`
         ,
         formData,
         {

@@ -22,7 +22,7 @@ const ItemPost = () => {
     formData.append("category", category);
     try { 
       const response = await axios.post(
-        "http://localhost:8243/user/AddExpense"
+        "https://mernexpenseuserspecificbackend.onrender.com/user/AddExpense"
         ,
         formData,
         {
