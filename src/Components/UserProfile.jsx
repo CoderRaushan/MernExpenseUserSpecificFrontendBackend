@@ -8,10 +8,10 @@ function UserProfile()
       }
     return (
         <div>
-            <h3>UserId: {userData._id || 'N/A'}</h3>
+            {/* <h3>UserId: {userData._id || 'N/A'}</h3> */}
             <h3>Name: {userData.name || 'N/A'}</h3>
             <h3>Email: {userData.email || 'N/A'}</h3>
-            <h3>Photo: {userData.photo || 'N/A'}</h3>
+            {/* <h3>Photo: {userData.photo || 'N/A'}</h3> */}
             <div>
                 <h3>Photo:</h3>
                 {userData.photo ? (
