@@ -148,15 +148,15 @@ const Header = () => {
               <div className="navbar-nav">
                 {!isAuthenticated ? (
                   <>
-                    <Link className="nav-link" to="/register">
+                    <Link className="nav-link mt-3" to="/register">
                       <b>SignUp</b>
                     </Link>
-                    <Link className="nav-link" to="/login">
+                    <Link className="nav-link mt-3" to="/login">
                       <b>LogIn</b>
                     </Link>
                   </>
                 ) : (
-                  <button className="nav-link btn btn-link" onClick={Logout}>
+                  <button className="nav-link btn btn-link mt-3" onClick={Logout}>
                     <b>Log Out</b>
                   </button>
                 )}
